@@ -1,0 +1,127 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+.main-container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+.navbar {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 10px 20px;
+	box-sizing: border-box;
+}
+.navbar-ul {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	list-style: none;
+	margin: 0
+}
+.navbar-ul li {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.navbar-ul li a {
+	text-decoration: none;
+	color: #333;
+	padding-left: 15px;
+
+}
+.navbar-ul li a:hover {
+	text-decoration: underline;
+	color: #555;
+}
+.navbar-ul li a.menu-wrapper {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+.navbar-ul li a.menu-wrapper img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+.navbar-ul li a.user-img-wrapper {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	display: inline-block;
+}
+.navbar-ul li a.user-img-wrapper img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.navbar-ul li a.user-img-wrapper:hover {
+	text-decoration: underline;
+}
+.main-elements {
+	text-align: center;
+	width: 100%;
+}
+.logo-wrapper {
+	width: 300px;
+	height: auto;
+	margin: auto;
+	margin-bottom: 50px;
+}
+.logo-wrapper img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+.search-box-wrapper {
+	width: 550px;
+	margin: auto;
+}
+input.search-box {
+	width: 100%;
+	height: 45px;
+	border: 1px solid #dedede;
+	border-radius: 50px;
+	padding: 0 20px;
+}
+input:focus {
+	outline: 0;
+}
+.footer {
+	background-color: #f2f2f2;
+	width: 100%;
+}
+.row {
+  border-top: 1px solid #e4e4e4;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.row p.address {
+	color: #888;
+	margin: 0;
+	padding: 0 10px
+}
+.row ul {
+	display: flex;
+	align-items: center;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.row ul li a {
+	color: #888;
+	text-decoration: none;
+	padding: 10px 10px;
+	box-sizing: border-box;
+}
+.row ul li a:hover {
+	text-decoration: underline;
+}
